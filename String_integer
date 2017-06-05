@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+public class String_integer
+{
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+System.out.println("Enter the string to convert it to an integer");
+String s1=s.next();
+int integer=Integer.parseInt(s1);
+System.out.println("Respective integer for the given string"+integer);
+}
+}
